@@ -1,0 +1,52 @@
+body {
+  background: rgba(94, 233, 241, 0.49);
+  line-height: 1.618;
+  font-family:  'Trebuchet MS', sans-serif;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: .5rem 1rem;
+}
+h1 {
+  font-weight: 900;
+	font-size: 3.3rem;
+	line-height: 1.35;
+	margin: 0.8em 0;
+}
+h3 {
+  margin-bottom: .5rem;
+}
+h1, form {
+  text-align: center;
+}
+#randomBtn {
+  margin: 0 auto 1rem auto;
+  display: flex;
+  background: #fff;
+}
+#randomBtn, #search {
+  color: #2D2C2C;
+  font-family:  'Trebuchet MS', sans-serif;
+  padding: 8px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.2);
+}
+#search {
+  outline: none;
+}
+#wiki {
+  margin: 1rem 0;
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  background: #fff;
+  color: #2D2C2C;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all .15s linear;
+}
+ul:hover {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.2);
+}
